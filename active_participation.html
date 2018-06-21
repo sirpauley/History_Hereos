@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <!-- Change the content of the following before going live-->
+    <title>Active Participation</title>
+    <meta name="keywords" content="Active Participation">
+
+    <meta name="description" content="This is just a website assignment for web development assignment info used from wikipedia">
+    <meta name="copyright" content="Copyright © 2015 Carel Pauley. All Rights Reserved.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!--End of content to be changed-->
+    <!-- Font-->
+    <link href="http://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type="text/css">
+
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+    <!-- Script for background roll overs-->
+    <script>
+        $(function () {
+            $('.fadein img:gt(0)').hide();
+            setInterval(function () {
+                $('.fadein :first-child').fadeOut(1000)
+                   .next('img').fadeIn(1000)
+                   .end().appendTo('.fadein');
+            }, 5000);
+        });
+    </script>
+    <!-- End Script | this is the same script used on http://michiganequipment.co.za > landing page -->  
+    
+</head>
+<body>
+    <div id="content-body">
+
+        <div id="menu">
+            <div id="menu-line"></div>
+            <ul>
+                <li id="first"><a href="index.html"><span>Home</span></a></li>
+                <li><a href="albert.html"><span>Albert</span></a></li>
+                <li><a href="henry.html"><span>Henry</span></a></li>
+                <li><a href="leonardo.html"><span>Leonardo</span></a></li>
+                <li><a href="nikola.html"><span>Nikola</span></a></li>
+                <li><a href="pablo.html"><span>Pablo</span></a></li>
+                <li><a href="steve.html"><span>Steve</span></a></li>
+                <li><a href="thomas.html"><span>Thomas</span></a></li>
+                <li class="last-button"><a href="contact_me.html"><span>Contact Me</span></a></li>
+            </ul>
+        </div>
+
+        <div id="head-banner" class="fadein">
+            <img src="images/thomas/banner1.jpg" alt="#" border="0">
+            <img src="images/thomas/banner2.jpg" alt="#" border="0">
+            <img src="images/thomas/banner3.jpg" alt="#" border="0">
+            <img src="images/steve/banner1.jpg" alt="#" border="0">
+            <img src="images/steve/banner2.jpg" alt="#" border="0">
+            <img src="images/steve/banner3.jpg" alt="#" border="0">
+            <img src="images/pablo/banner1.jpg" alt="#" border="0">
+            <img src="images/pablo/banner2.jpg" alt="#" border="0">
+            <img src="images/pablo/banner3.jpg" alt="#" border="0">
+            <img src="images/nikola/banner1.jpg" alt="#" border="0">
+            <img src="images/nikola/banner2.jpg" alt="#" border="0">
+            <img src="images/nikola/banner3.jpg" alt="#" border="0">
+            <img src="images/nikola/banner4.jpg" alt="#" border="0">
+            <img src="images/leonardo/banner1.jpg" alt="#" border="0">
+            <img src="images/leonardo/banner2.jpg" alt="#" border="0">
+            <img src="images/leonardo/banner3.jpg" alt="#" border="0">
+            <img src="images/henry/banner1.jpg" alt="#" border="0">
+            <img src="images/henry/banner2.jpg" alt="#" border="0">
+            <img src="images/henry/banner3.jpg" alt="#" border="0">
+            <img src="images/albert/banner1.jpg" alt="#" border="0">
+            <img src="images/albert/banner2.jpg" alt="#" border="0">
+        </div>
+
+        <div class="middle">
+            <aside class="middle-left">
+                <h3>Main Menu<br></h3>
+                <ul class="left-items">
+                    <li><a href="index.html"><span>Home</span></a></li>
+                    <li><a href="albert.html"><span>Albert</span></a></li>
+                    <li><a href="henry.html"><span>Henry</span></a></li>
+                    <li><a href="leonardo.html"><span>Leonardo</span></a></li>
+                    <li><a href="nikola.html"><span>Nikola</span></a></li>
+                    <li><a href="pablo.html"><span>Pablo</span></a></li>
+                    <li><a href="steve.html"><span>Steve</span></a></li>
+                    <li class="active"><a href="thomas.html"><span>Thomas</span></a></li>
+                    <li><a href="contact_me.html"><span>Contact Me</span></a></li>
+                </ul>
+            </aside>
+            <div class="middle-right">
+                <h1>Active Participation</h1>
+                <h2>Web sites starts here</h2>
+                <p>Everything needs to start at some place. Every website consist of the following code. I call it my foundation.</p>
+                <blockquote>
+                &lt;!DOCTYPE html&gt;<br />
+                &lt;html&gt;<br />
+                &lt;head&gt;<br />
+                &lt;title&gt;Page Title&lt;/title&gt;<br />
+                &lt;/head&gt;<br />
+                &lt;body&gt;<br />
+                <br />
+                <br />
+                &lt;/body&gt;<br />
+                &lt;/html&gt;
+                </blockquote>
+                <p>To learn more in depth about the code above go to <a href="http://www.w3schools.com/html/default.asp" target="_blank">w3schools.com</a>. most of the magic happens between the &lt;body&gt; and the &lt;/body&gt; text.</p>
+                <h2>Headings</h2>
+                <p>Having different headings and heading size is very important in any website, and to know where to use them takes a little practise. Here is a way that helped me a lot through understanding where to put what.</p>
+                <p>The format for a Header 1 looks like the following <blockquote>html code<br /> &lt;h1&gt; your text here &lt;/h1&gt;<br /><br />html page example <h1>your text here</h1></blockquote> it is also the biggest of them all. your smallest header is a &lt;h6&gt;Header 6&lt;/h6&gt;</p>
+                <blockquote>
+                    <h1>&lt;h1&gt; - The CEO</h1>
+                    <h2>&lt;h2&gt; - VP</h2>
+                    <h3>&lt;h3&gt; - Director</h3>
+                    <h4>&lt;h4&gt; - Middle Management</h4>
+                    <h5>&lt;h5&gt; - Lowly Assistant </h5>
+                    <h6>&lt;h6&gt; - Gets coffee for everyone</h6>
+                </blockquote>
+                <h2>Basic Elements</h2>
+                <p>Well now it’s time to tell you about other elements that also exists in the world of HTML, we’ll start with all the easy ones, easy way to remember what they are is to look at my example in the block below.</p>
+                <blockquote>&lt;p&gt;P is for Paragraph tag&lt;/p&gt;<br />
+                <br />
+                &lt;a href="http://where_the_link_should_go"&gt;your text witch is linked to the http://address&lt;/a&gt;<br />
+                <br />
+                &lt;img src="image_path_and_name.jpg" alt="alternative text for when the image is unavailable" width="104" height="142"&gt;</blockquote>
+                <h2>Summary of website basics</h2>
+                <p>next will first follow first an example of how a basic webiste would look like ofcourse in my cute grey block.</p>
+                <blockquote style="text-align: left;">
+                    <h1>My heading</h1>
+                    <p>Here is a random paragragh, very short indeed</p>
+                    <p>
+                        <a href="http://www.google.com">a random link to Google</a>
+                    </p>
+                    <img style=" margin-left: 15px;" src="http://lorempixel.com/400/200/" alt="lorem ipsum image just for place holding" width="104" height="142">
+
+                </blockquote>
+                <p>And here is how the HTML code would looks like also in grey box below.</p>
+                <blockquote style="text-align: left; ">
+                    <p style="text-align: left; margin-left: 15px;">
+                        &lt;!DOCTYPE html&gt;<br />
+                        &lt;html&gt;<br />
+                        &lt;head&gt;<br />
+                        &lt;title&gt;Page Title&lt;/title&gt;<br />
+                        &lt;/head&gt;<br />
+                        &lt;body&gt;<br /><br/>
+                        &lt;h1&gt;My heading&lt;/h1&gt;<br />
+                        &lt;p&gt;Here is a random paragragh, very short indeed &lt;/p&gt;<br />
+                        &lt;p&gt;
+                        &lt;a href="http://www.google.com"&gt;a random link to Google&lt;/a&gt;
+                        &lt;/p&gt;<br />
+                        &lt;img src="http://lorempixel.com/400/200/" alt="lorem ipsum image just for place holding" width="104" height="142"&gt;<br /><br />
+                        &lt;/body&gt;<br />
+                        &lt;/html&gt;
+                    </p>
+                </blockquote>
+                <p>My grand father always told me: "BIG things starts with small steps". Now you have a very basic knowledge on reading and understanding HTML code, If you have any questions or want to know more like:"how I styled my HEADING" please contact me @ : <a href="contact_me.html">Click Here</a></p>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <div class="soc_sec">
+                <section>
+                    <div id="main" onmouseover="document.getElementById('main').style.backgroundColor='#424242';" onmouseout="document.getElementById('main').style.backgroundColor='#424242';">
+                        <a href="https://www.facebook.com/profile.php?id=1351476272" target="_blank"><div class="top"><img class="rot_img" src="images/social/facebook.png"></div></a>
+                        <a href="https://twitter.com/CarelPauley" target="_blank"><div class="right"><img class="rot_img" src="images/social/twitter.png"></div></a>
+                        <a href="https://ello.co/" target="_blank"><div class="bottom"><img class="rot_img" src="images/social/ello.png"></div></a>
+                        <a href="https://za.linkedin.com/pub/carel-pauley/a8/515/abb" target="_blank"><div class="left"><img class="rot_img" src="images/social/linked_in.png"></div></a>
+                    </div>
+                </section>
+            </div>
+            <p class="copyright">Copyright <span id="time"></span>. Designed by sirPauley Studios</p>
+            <table align="center" class="foot_table">
+                <tr>
+                    <td style="column-span: 2;">Site Map</td>
+                </tr>
+                <tr>
+                    <td><a href="index.html"><span>Home</span></a></td>
+                    <td><a href="albert.html"><span>Albert</span></a></td>
+                    <td><a href="henry.html"><span>Henry</span></a></td>
+                </tr>
+                <tr>
+                    <td><a href="leonardo.html"><span>Leonardo</span></a></td>
+                    <td><a href="nikola.html"><span>Nikola</span></a></td>
+                    <td><a href="pablo.html"><span>Pablo</span></a></td>
+                </tr>
+                <tr>
+                    <td><a href="steve.html"><span>Steve</span></a></td>
+                    <td><a href="thomas.html"><span>Thomas</span></a></td>
+                    <td><a href="contact_me.html"><span>Contact Me</span></a></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><a href="active_participation.html"><span>Active Participation</span></a></td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+
+        </footer>
+    <script>
+        var d = new Date();
+        var n = d.getFullYear();
+        document.getElementById("time").innerHTML = n;
+    </script>
+        <br />
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <!-- Change the content of the following before going live-->
+    <title>Nikola Tesla</title>
+    <meta name="keywords" content="Nikola Tesla">
+
+    <meta name="description" content="This is just a website assignment for web development assignment info used from wikipedia">
+    <meta name="copyright" content="Copyright © 2015 Carel Pauley. All Rights Reserved.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!--End of content to be changed-->
+    <!-- Font-->
+    <link href="http://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type="text/css">
+    
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+    <!-- Script for background roll overs-->
+    <script>
+        $(function () {
+            $('.fadein img:gt(0)').hide();
+            setInterval(function () {
+                $('.fadein :first-child').fadeOut(1000)
+                   .next('img').fadeIn(1000)
+                   .end().appendTo('.fadein');
+            }, 5000);
+        });
+    </script>
+    <!-- End Script | this is the same script used on http://michiganequipment.co.za > landing page -->  
+    
+</head>
+<body>
+    <div id="content-body">
+
+        <div id="menu">
+            <div id="menu-line"></div>
+            <ul>
+                <li id="first"><a href="index.html"><span>Home</span></a></li>
+                <li><a href="albert.html"><span>Albert</span></a></li>
+                <li><a href="henry.html"><span>Henry</span></a></li>
+                <li><a href="leonardo.html"><span>Leonardo</span></a></li>
+                <li class="active"><a href="nikola.html"><span>Nikola</span></a></li>
+                <li><a href="pablo.html"><span>Pablo</span></a></li>
+                <li><a href="steve.html"><span>Steve</span></a></li>
+                <li><a href="thomas.html"><span>Thomas</span></a></li>
+                <li class="last-button"><a href="contact_me.html"><span>Contact Me</span></a></li>
+            </ul>
+        </div>
+
+        <div id="head-banner" class="fadein">
+            <img src="images/nikola/banner1.jpg" alt="#" border="0">
+            <img src="images/nikola/banner2.jpg" alt="#" border="0">
+            <img src="images/nikola/banner3.jpg" alt="#" border="0">
+            <img src="images/nikola/banner4.jpg" alt="#" border="0">
+        </div>
+
+        <div class="middle">
+            <aside class="middle-left">
+                <h3>Main Menu<br></h3>
+                <ul class="left-items">
+                    <li><a href="index.html"><span>Home</span></a></li>
+                    <li><a href="albert.html"><span>Albert</span></a></li>
+                    <li><a href="henry.html"><span>Henry</span></a></li>
+                    <li><a href="leonardo.html"><span>Leonardo</span></a></li>
+                    <li class="active"><a href="nikola.html"><span>Nikola</span></a></li>
+                    <li><a href="pablo.html"><span>Pablo</span></a></li>
+                    <li><a href="steve.html"><span>Steve</span></a></li>
+                    <li><a href="thomas.html"><span>Thomas</span></a></li>
+                    <li><a href="contact_me.html"><span>Contact Me</span></a></li>
+                </ul>
+                <h3>Resources</h3>
+                <ul class="left-items">
+                    <li><a href="https://www.google.co.za/search?hl=en&authuser=0&site=imghp&tbm=isch&source=hp&biw=1920&bih=979&q=nikola+tesla&oq=nikola+tesla&gs_l=img.3..0l10.759.3306.0.3975.12.9.0.3.3.1.586.1478.2-1j2j0j1.4.0.msedr...0...1ac.1.64.img..6.6.901.bby4lb1LlU0" target="_blank">Google<br></a></li>
+                    <li><a href="http://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">Wikipedia<br></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=YSGewpFCPoE" target="_blank">YouTube<br></a></li>
+                </ul>
+            </aside>
+            <div class="middle-right">
+                <h1>Nikola Tesla</h1>
+                <p>Nikola Tesla (10 July 1856 – 7 January 1943) was a Serbian American inventor, electrical engineer, mechanical engineer, physicist, and futurist best known for his contributions to the design of the modern alternating current (AC) electricity supply system.</p>
+                <div style="text-align: center;"><img src="images/nikola/Nikola_Tesla.png" /></div>
+                <p>Tesla gained experience in telephony and electrical engineering before immigrating to the United States in 1884 to work for Thomas Edison in New York City. He soon struck out on his own with financial backers, setting up laboratories and companies to develop a range of electrical devices. His patented AC induction motor and transformer were licensed by George Westinghouse, who also hired Tesla for a short time as a consultant. His work in the formative years of electric power development was involved in a corporate alternating current/direct current "War of Currents" as well as various patent battles. Tesla went on to pursue his ideas of wireless lighting and electricity distribution in his high-voltage, high-frequency power experiments in New York and Colorado Springs and made early (1893) pronouncements on the possibility of wireless communication with his devices. He tried to put these ideas to practical use in his ill-fated attempt at intercontinental wireless transmission, which was his unfinished Wardenclyffe Tower project. In his lab he also conducted a range of experiments with mechanical oscillators/generators, electrical discharge tubes, and early X-ray imaging. He also built a wireless controlled boat, one of the first ever exhibited.</p>
+                <p>Tesla was renowned for his achievements and showmanship, eventually earning him a reputation in popular culture as an archetypal "mad scientist." His patents earned him a considerable amount of money, much of which was used to finance his own projects with varying degrees of success. He lived most of his life in a series of New York hotels, through his retirement. He died on 7 January 1943. His work fell into relative obscurity after his death, but in 1960 the General Conference on Weights and Measures named the SI unit of magnetic flux density the tesla in his honor. Tesla has experienced a resurgence in interest in popular culture since the 1990s.</p>
+                <br>
+                <h1>Video</h1>
+                <div class="iframe_video"><iframe width="480" height="350" src="https://www.youtube.com/embed/YSGewpFCPoE" frameborder="0" allowfullscreen></iframe></div>
+                <table>
+                    <thead><h1>Other Information</h1></thead>
+                    <tr>
+                        <td>Born</td>
+                        <td>10 July 1856 Smiljan, Austrian Empire (modern-day Croatia)</td>
+                    </tr>
+                    <tr>
+                        <td>Died</td>
+                        <td>7 January 1943 (aged 86) New York City, New York</td>
+                    </tr>
+                    <tr>
+                        <td>Cause of death</td>
+                        <td>Coronary thrombosis</td>
+                    </tr>
+                    <tr>
+                        <td>Ethnicity</td>
+                        <td>Serb</td>
+                    </tr>
+                    <tr>
+                        <td>Citizenship</td>
+                        <td>Austrian Empire (10 July 1856 – 1867)<br />Austrian in Austria-Hungary (1867 – 29 July 1891 ) <br />United States (30 July 1891 – 7 January 1943)</td>
+                    </tr>
+                    <tr>
+                        <td>Education</td>
+                        <td>Graz University of Technology</td>
+                    </tr>
+                    <tr>
+                        <td>Engineering discipline</td>
+                        <td>Electrical engineering <br />Mechanical engineering</td>
+                    </tr>
+                    <tr>
+                        <td>Significant projects</td>
+                        <td>Alternating current<br />high-voltage, high-frequency power experiments</td>
+                    </tr>
+                    <tr>
+                        <td>Significant design</td>
+                        <td>Rotating magnetic field<br />Tesla coil<br />Radio remote control vehicle (torpedo)</td>
+                    </tr>
+                    <tr>
+                        <td>Signature</td>
+                        <td><img src="images/nikola/teslasignature.png" /></td>
+                    </tr>
+                </table>
+                <p>&nbsp;</p>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <div class="soc_sec">
+                <section>
+                    <div id="main" onmouseover="document.getElementById('main').style.backgroundColor='#424242';" onmouseout="document.getElementById('main').style.backgroundColor='#424242';">
+                        <a href="https://www.facebook.com/profile.php?id=1351476272" target="_blank"><div class="top"><img class="rot_img" src="images/social/facebook.png"></div></a>
+                        <a href="https://twitter.com/CarelPauley" target="_blank"><div class="right"><img class="rot_img" src="images/social/twitter.png"></div></a>
+                        <a href="https://ello.co/" target="_blank"><div class="bottom"><img class="rot_img" src="images/social/ello.png"></div></a>
+                        <a href="https://za.linkedin.com/pub/carel-pauley/a8/515/abb" target="_blank"><div class="left"><img class="rot_img" src="images/social/linked_in.png"></div></a>
+                    </div>
+                </section>
+            </div>
+            <p class="copyright">Copyright <span id="time"></span>. Designed by sirPauley Studios</p>
+            <table align="center" class="foot_table">
+                <tr>
+                    <td style="column-span: 2;">Site Map</td>
+                </tr>
+                <tr>
+                    <td><a href="index.html"><span>Home</span></a></td>
+                    <td><a href="albert.html"><span>Albert</span></a></td>
+                    <td><a href="henry.html"><span>Henry</span></a></td>
+                </tr>
+                <tr>
+                    <td><a href="leonardo.html"><span>Leonardo</span></a></td>
+                    <td><a href="nikola.html"><span>Nikola</span></a></td>
+                    <td><a href="pablo.html"><span>Pablo</span></a></td>
+                </tr>
+                <tr>
+                    <td><a href="steve.html"><span>Steve</span></a></td>
+                    <td><a href="thomas.html"><span>Thomas</span></a></td>
+                    <td><a href="contact_me.html"><span>Contact Me</span></a></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td><a href="active_participation.html"><span>Active Participation</span></a></td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+           
+        </footer>
+    <script>
+        var d = new Date();
+        var n = d.getFullYear();
+        document.getElementById("time").innerHTML = n;
+    </script>
+        <br />
+
+</body>
+</html>
